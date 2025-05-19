@@ -12,7 +12,6 @@ function Navbar() {
             <div className="logo mb-2 md:mb-0">
                 <h1 className="text-lg md:text-2xl font-bold">Exclusive</h1>
             </div>
-            {/* Hamburger menu for mobile */}
             <button
               className="md:hidden absolute right-4 top-4 z-50"
               onClick={() => setMenuOpen((prev) => !prev)}
