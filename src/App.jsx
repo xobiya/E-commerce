@@ -7,6 +7,8 @@ import Selling from "./Sections/Selling"
 import Main from "./Sections/Main"
 import ProductItems from "./Sections/ProductItems"
 import Feature from "./Sections/Feature"
+import Services from "./Sections/Services"
+import Footer from "./Sections/Footer"
 function App() {
 
   return (
@@ -20,6 +22,8 @@ function App() {
      <Main />
      <ProductItems />
      <Feature />
+     <Services />
+     <Footer />
     </>
   )
 }
