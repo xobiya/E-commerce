@@ -3,7 +3,7 @@ import { Items } from "../Components/index";
 
 const ProductList = () => {
   return (
-    <section className="px-4 sm:px-6 lg:px-8">
+    <section className="px-4 sm:px-6 lg:px-8 ml-15">
       <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6">
         {Items.map((item) => (
           <ProductCard 
