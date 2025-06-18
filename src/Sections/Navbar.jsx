@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,10 +23,11 @@ function Navbar() {
             <ul
               className={`nav-links flex-col md:flex-row justify-center items-center gap-2 md:gap-4 flex-1 w-full md:w-auto bg-white md:bg-transparent absolute md:static left-0 top-16 md:top-auto z-40 md:z-auto transition-all duration-300 ease-in-out ${menuOpen ? 'flex' : 'hidden'} md:flex`}
             >
-                <li><a href="#home" className="block py-2 px-4 hover:bg-gray-100 md:hover:bg-transparent rounded md:rounded-none">Home</a></li>
+                <li><Link to="/" className="block py-2 px-4 hover:bg-gray-100 md:hover:bg-transparent rounded md:rounded-none">Home</Link></li>
                 <li><a href="#contact" className="block py-2 px-4 hover:bg-gray-100 md:hover:bg-transparent rounded md:rounded-none">Contact</a></li>
                 <li><a href="#About" className="block py-2 px-4 hover:bg-gray-100 md:hover:bg-transparent rounded md:rounded-none">About</a></li>
-                <li><a href="#Signup" className="block py-2 px-4 hover:bg-gray-100 md:hover:bg-transparent rounded md:rounded-none">Sign Up</a></li>
+                <li><Link to="/signup" className="block py-2 px-4 hover:bg-gray-100 md:hover:bg-transparent rounded md:rounded-none">Sign Up</Link></li>
+                <li><Link to="/login" className="block py-2 px-4 hover:bg-gray-100 md:hover:bg-transparent rounded md:rounded-none">Login</Link></li>
             </ul>
             <div className="search-bar flex items-center gap-2 md:gap-4 mt-2 md:mt-0 w-full md:w-auto">
                 <input type="search" className="w-full md:w-auto bg-white rounded-md px-2 py-1 md:px-4 md:py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="What are you looking for?" />
