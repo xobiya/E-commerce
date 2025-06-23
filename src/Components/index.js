@@ -4,12 +4,14 @@ import Item3 from '../assets/Images/Monitor.png'
 import Item4 from '../assets/Images/Chain.png'
 import like from '../assets/Icons/like.png'
 import FillEye from '../assets/Icons/Fill Eye.png'
+
 import Category1 from '../assets/Images/Category-Camera.png'
 import Category2 from '../assets/Images/Category-CellPhone.png'
 import Category3 from '../assets/Images/Category-Computer.png'
 import Category4 from '../assets/Images/Category-Gamepad.png'
 import Category5 from '../assets/Images/Category-Headphone.png'
 import Category6 from '../assets/Images/Category-SmartWatch.png'
+
 import pro1 from '../assets/Images/coat.png'
 import pro2 from '../assets/Images/bag.png'
 import pro3 from '../assets/Images/cpu.png'
@@ -265,3 +267,67 @@ export const Products = [
       description: "Quilted satin Jacket",
       reviwes: "55",
     }];
+export const wishlist = [
+  {
+    id: 1,
+    name: "Quilted Coat",
+    price: "$750",
+    oldPrice: "$950",
+    discount: 21,
+    image: pro1,
+    description: "Winter-ready quilted coat",
+  },
+  {
+    id: 2,
+    name: "Gucci Duffle Bag",
+    price: "$960",
+    oldPrice: "$1160",
+    discount: 35,
+    image: pro2,
+    description: "Luxury designer bag",
+  },
+  {
+    id: 3,
+    name: "RGB Liquid CPU Cooler",
+    price: "$1960",
+    image: pro3,
+    description: "High-performance cooling system",
+  },
+  {
+    id: 4,
+    name: "Modern Shelf Set",
+    price: "$450",
+    image: pro4,
+    description: "Wooden floating shelves",
+  },
+  {
+    id: 5,
+    name: "Dog Plush Toy",
+    price: "$65",
+    image: Item5,
+    description: "Soft, cuddly dog plushie",
+  },
+  {
+    id: 6,
+    name: "Sony Alpha Camera",
+    price: "$860",
+    oldPrice: "$950",
+    discount: 10,
+    image: Item6,
+    description: "Professional mirrorless camera",
+  },
+  {
+    id: 7,
+    name: "Gaming PC Setup",
+    price: "$2500",
+    image: Item7,
+    description: "Ultimate performance desktop",
+  },
+  {
+    id: 8,
+    name: "Cosmo Skincare Pack",
+    price: "$130",
+    image: Item8,
+    description: "Complete daily skin care combo",
+  },
+];
